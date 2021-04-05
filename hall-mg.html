@@ -1,0 +1,38 @@
+---
+layout: product-page
+title: AKAUNTS -  Hall MG
+description: Technology Distributor
+image: assets/img/hmg/logo-white.svg
+tagline:
+social:
+    name:
+    Links:
+
+logo: favicon.png
+product-name: Hall MG
+product-logo: assets/img/hmg/logo-white.svg
+product-title: Plataforma Modular
+product-description: Integración con la nómina y los sistemas transaccionales de su empresa (ERP). <br> Es un sistema que permite la ejecución de diversas aplicaciones o módulos bajo un mismo entorno.
+
+---
+<div class="container">
+	<div class="row justify-content-center mb-5">
+	    <div class="col-lg-4 text-center">
+	    	<img src="/assets/img/hmg/sepanka.png" alt="">
+	    </div>		
+	</div>
+	<div class="row justify-content-center">
+		{% assign delay = 100 %}
+	    {% for item in site.data.modulos-hmg %}
+	      <div class="icon-box col-lg-4 mx-3" data-aos="fade-up" data-aos-delay="{{ delay }}">
+	        <div class="icon"><i class="{{ item.icon }}" src=""></i></div>
+	        <h4 class="title">{{ item.title }}</h4>
+	        <p class="description">{{ item.description }}</p>
+	      </div>
+	      {% assign delay = delay | plus: 100 %}
+	    {% endfor %}
+
+
+	</div>
+
+</div>

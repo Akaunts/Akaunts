@@ -1,0 +1,44 @@
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>AKAUNTS</h3>
+            <p>Somos una distribuidora de tecnología en la nube. Contamos con un equipo multidisciplinario alcanzando más de 25 años de experiencia Corporativa.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              {% for item in site.data.navigation %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="col-lg-6 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              {{ site.data.contact.address }}<br>
+              <strong>Phone:</strong> {{ site.data.contact.phone }}<br>
+              <strong>Email:</strong> <a href="mailto:{{ site.data.contact.email }}" class="text-white">{{ site.data.contact.email }}</a><br>
+            </p>
+
+            <div class="social-links">
+              <a href="{{ site.data.contact.facebook }}" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="{{ site.data.contact.linkedin }}" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; <strong>Akaunts</strong> {{ "now" | date: "%Y" }}
+      </div>
+
+    </div>
+  </footer>

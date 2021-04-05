@@ -1,0 +1,43 @@
+---
+layout: product-page
+title: AKAUNTS - IVO
+description: Technology Distributor
+image: assets/img/logo.png
+tagline:
+social:
+    name:
+    Links:
+
+logo: favicon.png
+product-name: IVO 
+product-logo: assets/img/ivo/logo-white.svg
+product-title: Gestione sus clientes y servicios
+product-description: Aplicación para la administración del registro de ingresos y salidas de diferentes elementos, como vehículos, herramientas o mascotas, sus condiciones y servicios aplicados. Le permite al negocio gestionar de forma sencilla el registro de llegada y salida de los bienes de los clientes o usuarios y de los servicios aplicados. 
+
+ 
+---
+<div class="container">
+  <div class="row justify-content-around">
+    <div class="col-lg-4 d-flex align-items-center mb-5 pe-lg-5">
+      <img src="/assets/img/ivo/demo.png" alt="" class="w-100">
+    </div> 
+    <div class="col-lg-8 ">
+      <div class="row">
+        {% for item in site.data.ventajas-ivo %}
+          <div class="icon-box col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-{{ item.icon }}"></i></div>
+            <h4 class="title"><a href="">{{ item.title }}</a></h4>
+            <ul class="description">{{ item.description }}</ul>
+          </div>
+        {% endfor %}    
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+</div>

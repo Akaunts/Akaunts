@@ -1,0 +1,24 @@
+- title: Crea listas de reproducción
+  description: Agrupa tus contenidos, actualízalos de forma inmediata y aplícalo a tus pantallas.
+  icon: assets/img/ab/bullet-1.svg
+
+- title: Haz tus diseños personalizados
+  description: Distribuye tus contenidos aprovechando el espacio de tus pantalla de la mejor manera.
+  icon: assets/img/ab/bullet-2.svg
+
+- title: Programa  el horario de contenidos
+  description: No tienes que estar disponible cada que quieras cambiar contenidos, prográmalos para que se haga automáticamente. 
+  icon: assets/img/ab/bullet-3.svg
+
+- title: Ten siempre tu multimedia disponible
+  description: Sube videos, imágenes, audios y diseños personalizados a nuestra nube AWS para tenerlos siempre a la mano.
+  icon: assets/img/ab/bullet-4.svg
+  
+- title: Recopila estadísticas de uso
+  description: Genera reportes sobre funcionamiento, programación, actividad e interacciones.
+  icon: assets/img/ab/bullet-5.svg
+
+- title: Gestiona remotamente tu red
+  description: Monitorea el estado de tus pantallas, ejecuta tareas remotas y haz instantáneas del contenido.
+  icon: assets/img/ab/bullet-6.svg
+

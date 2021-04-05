@@ -1,0 +1,75 @@
+---
+layout: product-page
+title: AKAUNTS - Arkbox
+description: Technology Distributor
+image: assets/img/logo.png
+tagline:
+social:
+    name:
+    Links:
+
+logo: favicon.png
+product-name: Dinámica y Desarrollo 
+product-logo: assets/img/dyd/logo-white.svg
+product-title: Líderes en la gestión de turnos
+product-description: Administra todo tu proceso de gestión de turnos con nuestra compañía.
+---
+
+<div class="container pt-3">
+	<div class="row justify-content-center">
+		<div class="col-lg-6">
+			<div class="row">
+				<div class="col-12">
+					<h2>Nuestra app de turnos te permite:</h2>
+					<div class="row justify-content-between">
+					{% assign delay = 100 %}
+                    {% for item in site.data.ventajas-dyd %}
+                      <div class="icon-box my-2 col-sm-5"  data-aos="fade-up" data-aos-delay="{{ delay }}">
+                        <div class="icon"><i class="{{ item.icon }}"></i></div>
+                        <h4 class="title me-2 pt-3"><a class="align-center" href="">{{ item.title }}</a></h4>
+                      </div>
+                    {% assign delay = delay | plus: 100 %}
+                    {% endfor %}
+                    <h2>Nuestras Cifras</h2>
+                    {% for item in site.data.cifras-dyd %}
+                      <div class="icon-box my-2 col-sm-5"  data-aos="fade-up" data-aos-delay="{{ delay }}">
+                        <div class="icon"><i class="{{ item.icon }}"></i></div>
+                        <h4 class="title me-2 pt-3"><a class="align-center" href="">{{ item.text }}</a></h4>
+                      </div>
+                    {% assign delay = delay | plus: 100 %}
+                    {% endfor %} 						
+					</div>
+
+	
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="col-lg-2 text-sm-center">
+			<div class="text-primary d-flex justify-content-center">
+				<h1>+</h1>
+				<h1 class="purecounter" data-purecounter-start="0" data-purecounter-end="44" data-purecounter-duration="2"></h1>
+			</div>
+			<p>Años les hemos ahorrado a los usuarios de nuestros clientes.</p>
+			<div class="text-primary d-flex justify-content-center">
+				<h1>+</h1>
+				<h1 class="purecounter" data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="2"></h1>
+				<h1>,000</h1>
+			</div>
+			<p>Descargas de nuestra app filapp en google play.</p>
+			<div class="text-primary d-flex justify-content-center">
+				<h1>+</h1>
+				<h1 class="purecounter" data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="2"></h1>	
+			</div>
+			<p>Empresas ya cuentan con nuestra app.</p>
+			<a href="http://m.filapp.co/"><img src="assets/img/dyd/app.png" class="w-100" alt=""></a>
+		</div>
+	</div>
+		<h3 class="text-center">Descárgala ahora:<h3>
+		<div class="buttons row justify-content-center">
+			<a id="" class="col-7 col-sm-4 col-lg-2 text-center" href="https://play.google.com/store/apps/details?id=com.grupodyd.filapp" role="button"><img class="w-100 h-100" src="/assets/img/playstore.svg" alt=""></a>
+			<a id="" class="col-7 col-sm-4 col-lg-2 text-center" href="https://itunes.apple.com/co/app/filapp-dyd/id927426027" role="button"><img class="w-100 h-100" src="/assets/img/appstore.svg" alt=""></a>
+		</div>
+	</div>
+</div>

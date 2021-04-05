@@ -1,0 +1,24 @@
+- title: Módulo para COMUNICACIÓN INTERNA
+  icon: bi bi-chat-dots
+
+- title: Módulo para GESTIÓN DE VACANTES
+  icon: bi bi-search
+
+- title: Módulo para EVALUACIÓN DEL DESEMPEÑO
+  icon: bi bi-clipboard-check
+
+- title: Módulo para EVALUACIÓN POR RESULTADOS
+  icon: bi bi-graph-up
+
+- title: Módulo para DIAGNÓSTICO DEL CLIMA LABORAL
+  icon: bi bi-thermometer-half
+
+- title: Módulo para CONTROL DE INCIDENCIAS <small>(VACACIONES)</small>
+  icon: bi bi-calendar3
+
+- title: Módulo para RECONOCIMIENTO AL PERSONAL
+  icon: bi bi-award
+
+- title: Módulo para CAPACITACIÓN EN LÍNEA
+  icon: bi bi-laptop
+

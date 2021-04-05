@@ -1,0 +1,10 @@
+- name: Inicio
+  link: "/#hero"
+- name: ¿Quiénes Somos?
+  link: "/#about"
+- name: Productos
+  link: "/#services"
+- name: ¿Por qué Akaunts?
+  link: "/#why-us"
+- name: Contáctenos
+  link: "/#contact"

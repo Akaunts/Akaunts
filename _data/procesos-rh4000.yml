@@ -1,0 +1,7 @@
+- title: Administración de personal
+  description: <li>Capital humano</li><li>Administración de documentos</li><li>Reclutamiento y selección</li><li>Capacitación</li><li>Administración de beneficios</li><li>Zona gerencial</li><li>MyHR - (zona empleado)</li>
+  icon: bi bi-gear
+
+- title: Nómina y compensaciones
+  description: <li>Nómina</li><li>control de presencia</li>
+  icon: bi bi-cash 

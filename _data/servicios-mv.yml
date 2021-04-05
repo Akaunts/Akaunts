@@ -1,0 +1,18 @@
+- title: Ventas
+  icon: fa fa-tags
+  description: Captura cualquier pedido sin limite de clientes o referencias.
+- title: Transporte
+  icon: bi bi-box
+  description: Empresas de transporte, mensajería y logística.
+- title: Trade Marketing
+  icon: fa fa-street-view
+  description: Controle y envíe información a sus promotoras e impulsadoras.
+- title: Grandes Empresas
+  icon: fa fa-group
+  description: Captura cualquier pedido sin limite de clientes o referencias.
+- title: Venta Directa
+  icon: fa fa-tag
+  description: Recibe cualquier pedido y visualice sus ventas en tiempo real.
+- title: Mercadeo
+  icon: fa fa-lightbulb
+  description: Publicidad, encuestas, estadísticas, control y mediciones.

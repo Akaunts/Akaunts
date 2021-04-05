@@ -1,0 +1,41 @@
+---
+layout: product-page
+title: AKAUNTS - Arkbox
+description: Technology Distributor
+image: assets/img/logo.png
+tagline:
+social:
+    name:
+    Links:
+
+logo: favicon.png
+product-name: Arkbox 
+product-logo: assets/img/ab/logo-white.svg
+product-title: Señalización digital y messaging.
+product-description: Difunde tu información en cualquier tipo de pantalla y adminístrala desde cualquier dispositivo.
+---
+
+<div class="container pt-3">
+	<div class="row justify-content-center">
+		{% assign delay = 100 %}
+	    {% for item in site.data.beneficios-ab %}
+	      <div class="icon-box col-lg-3 mx-3" data-aos="fade-up" data-aos-delay="{{ delay }}">
+	        <div class=""><img class="icon-no-border" src="{{ item.icon }}"></img></div>
+	        <h4 class="title">{{ item.title }}</h4>
+	        <p class="description">{{ item.description }}</p>
+	      </div>
+	      {% assign delay = delay | plus: 100 %}
+	    {% endfor %}
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-lg-6">
+			<img src="assets/img/ab/bk.png" alt="" class="w-100">
+		</div>
+		<div class="col-lg-6">
+			<img src="assets/img/ab/wall.png" alt="" class="w-100">
+		</div>
+		<div class="col-lg-2 mt-4">
+			<img src="assets/img/ab/aws.svg" alt="" class="w-100">
+		</div>
+	</div>
+</div>

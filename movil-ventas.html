@@ -1,171 +1,46 @@
-<!DOCTYPE html>
-<html>
+---
+layout: product-page
+title: AKAUNTS - MovilVentas
+description: Technology Distributor
+image: assets/img/logo.png
+tagline:
+social:
+    name:
+    Links:
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>akaunts</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-</head>
+logo: favicon.png
+product-name: MovilVentas 
+product-logo: assets/img/mv/mv-logo-white.svg
+product-title: Productos modulares para pequeñas, medianas y grandes empresas.
+product-description: Más de 10 años años en el mercado, capacidad de adaptarnos a cualquier ERP, experiencia en el mercado Latinoamericano con más de 10,000 usuarios que utilizan la aplicación.
+---
 
-<body>
-    <div class="pb-5">
-        <header id="header-1"></header>
-        <header id="header-2">
-            <nav class="navbar navbar-light navbar-expand-md bg-white" id="navbar_top">
-                <div class="container-fluid">
-                    <div class="container"><a class="navbar-brand" href="index.html"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse"
-                            id="navcol-1">
-                            <ul class="nav navbar-nav ml-auto">
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Inicio</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#pag-2">¿Quiénes Somos?</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="index.htm#pag-3">Productos</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="index.htm#pag-4">¿Por qué Akaunts?</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="index.htm#pag-5">Nuestros Clientes</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#pag-6">Contáctenos</a></li>
-                            </ul>
-                        </div>
-                    </div>
+
+        <div class="container d-flex d-xl-flex flex-column justify-content-center align-items-xl-center h-100" style="font-size: 14px;" data-aos="fade-up">  
+            <div class="row about-container my-4">
+                <div class="col-12 col-lg-6 align-self-center">
+
+                    {% for item in site.data.servicios-mv %}
+                      <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="{{ item.icon }}"></i></div>
+                        <h4 class="title"><a href="">{{ item.title }}</a></h4>
+                        <p class="description">{{ item.description }}</p>
+                      </div>
+                    {% endfor %}
+
                 </div>
-            </nav>
-        </header>
-        <div class="text-center hero"><img src="assets/img/Movil%20ventas%20logo.png" data-aos="fade-in"></div>
-        <div class="container d-flex d-xl-flex flex-column justify-content-center align-items-xl-center" style="font-size: 14px;height: 100%;" data-aos="fade-up">
-            <div class="row">
-                <div class="col">
-                    <h3 class="text-center text-dark h3">Aplicaciones comerciales y logísticas</h3>
+                <div class="col-12 col-lg-6  align-self-center"><img class="w-100" src="assets/img/mv/about-mv.png" data-aos="zoom-in"></div>
+
+                <div class="col-12 col-lg-6" data-aos="fade-up"><img class="w-100" src="assets/img/mv/chart-mv.png"></div>
+                <div class="col-12 col-lg-6  align-self-center">
+                    <h3>Aplicaciones</h3>
+                    {% for item in site.data.aplicaciones-mv %}
+                      <div class="icon-box my-2"  data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="{{ item.icon }}"></i></div>
+                        <h4 class="title me-2 pt-3"><a class="align-center" href="">{{ item.title }}</a></h4>
+                      </div>
+                    {% endfor %}                    
                 </div>
-            </div>
-            <div class="row">
-                <div class="col mx-auto">
-                    <p class="text-center w-100">Más de 10 años años en el mercado, capacidad de adaptarnos a cualquier&nbsp;<br>ERP, experiencia en el mercado Latinoamericano con más de 10,000&nbsp;<br>usuarios que utilizan la aplicación.<br></p>
-                </div>
-            </div>
-            <div class="row my-4">
-                <div class="col align-self-center">
-                    <div class="row" data-aos="fade-up" data-aos-delay="100">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-line-chart bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Aplicación Fuerza de Venta</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-delay="200">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-connectdevelop bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Aplicación Administración Logística</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-delay="300">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-rocket bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Aplicación Impulsadoras</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-delay="300">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-video-camera bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Aplicación Empresas de Vigilancia</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-delay="300">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-eye bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Aplicación Supervisión</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                    <div class="row" data-aos="fade-up" data-aos-delay="300">
-                        <div class="col-auto">
-                            <div class="d-flex" id="icon-box"><i class="fa fa-shopping-cart bullet-icon"></i></div>
-                        </div>
-                        <div class="col">
-                            <h4>Plataforma de Compras</h4>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col align-self-center"><img class="w-100" src="assets/img/Screen%20Shot%202021-03-18%20at%2012.35.31.png" data-aos="zoom-in"></div>
-            </div>
-            <div class="row">
-                <div class="col" data-aos="fade-up"><img class="w-100" src="assets/img/mv2.png"></div>
-                <div class="col" data-aos="fade-down"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/HK1CQShbkhs" width="560" height="315"></iframe></div>
+                <div class="col" data-aos="fade-down"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/HK1CQShbkhs" width="560" height="315"></iframe></div>                
             </div>
         </div>
-    </div>
-    <div id="pag-6">
-        <section id="contact-us-section">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row">
-                    <div class="col text-dark">
-                        <h3 class="text-center h3 mb-5">Contáctenos</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" style="border:0; width: 100%; height: 312px;" allowfullscreen="" frameborder="0"></iframe></div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col px-1"><i class="icon ion-ios-location d-flex d-xl-flex justify-content-center justify-content-xl-center" style="font-size: 36px;color: rgb(18,83,175);"></i>
-                                <p class="pt-2">5ª Avenida 15-45 Zona 10 Edificio Centro Empresarial Torre<br>II Oficina #906, Guatemala.<br></p>
-                            </div>
-                            <div class="col px-1"><i class="icon ion-android-mail d-flex d-xl-flex justify-content-center justify-content-xl-center" style="font-size: 36px;color: rgb(18,83,175);"></i>
-                                <p class="text-center pt-2">raulgochez@gmail.com<br></p>
-                            </div>
-                            <div class="col px-1"><i class="icon ion-ios-location d-flex d-xl-flex justify-content-center justify-content-xl-center" style="font-size: 36px;color: rgb(18,83,175);"></i>
-                                <p class="text-center pt-2">PBX (502) 2458-4575<br></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <form method="post">
-                                    <div class="form-group"><input class="form-control" type="text" name="Nombre" placeholder="Nombre"></div>
-                                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Correo electrónico"><small class="form-text text-danger">Por favor ingrese una dirección válida.</small></div>
-                                    <div class="form-group"><textarea class="form-control" name="message" placeholder="Mensaje" rows="6"></textarea></div>
-                                    <div class="form-group"><button class="btn btn-primary" type="submit">Enviar</button></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="py-4">
-            <div class="container">
-                <div class="social-icons"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
-                <div>
-                    <p class="text-center text-light">© Akaunts</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="assets/js/script.min.js"></script>
-</body>
-
-</html>

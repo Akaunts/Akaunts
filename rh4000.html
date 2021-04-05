@@ -1,0 +1,29 @@
+---
+layout: product-page
+title: AKAUNTS - RH4000
+description: Technology Distributor
+image: assets/img/logo.png
+tagline:
+social:
+    name:
+    Links:
+
+logo: favicon.png
+product-name: RH4000 
+product-logo: assets/img/rh4000/logo-white.svg
+product-title: Optimiza y moderniza tus procesos de nómina y recursos humanos.
+product-description: RH4000 es una plataforma integral con un enfoque estratégico que garantiza la automatización de tus procesos <br> y el cumplimiento legal que necesitas.<br>Con sus diferentes módulos te ofrece las mejores prácticas de RH y nóminas, con una navegación <br> y uso intuitivo y una constante optimización de procesos. 
+---
+<div class="container">
+	<h2>Procesos</h2>
+	<div class="row">
+    {% for item in site.data.procesos-rh4000 %}
+      <div class="icon-box col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon"><i class="{{ item.icon }}"></i></div>
+        <h4 class="title"><a href="">{{ item.title }}</a></h4>
+        <ul class="description">{{ item.description }}</ul>
+      </div>
+    {% endfor %}		
+	</div>
+
+</div>
