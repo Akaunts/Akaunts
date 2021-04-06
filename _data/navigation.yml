@@ -1,10 +1,10 @@
 - name: Inicio
-  link: "/#hero"
+  link: "akaunts/#hero"
 - name: ¿Quiénes Somos?
-  link: "/#about"
+  link: "akaunts/#about"
 - name: Productos
-  link: "/#services"
+  link: "akaunts/#services"
 - name: ¿Por qué Akaunts?
-  link: "/#why-us"
+  link: "akaunts/#why-us"
 - name: Contáctenos
-  link: "/#contact"
+  link: "akaunts/#contact"
