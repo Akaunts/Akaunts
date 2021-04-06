@@ -1471,11 +1471,11 @@ section {
 }
 
 #appstore {
-    background-image: url('/assets/img/appstore.png');
+    background-image: url('assets/img/appstore.png');
     background-size: cover
 }
 #playstore {
-    background-image: url('/assets/img/playstore.png');
+    background-image: url('assets/img/playstore.png');
     background-size: cover
 }
 
