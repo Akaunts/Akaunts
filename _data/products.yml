@@ -19,6 +19,6 @@
   desc: Nómina y procesos RRHH
   link: rh4000
 - name: IVO
-  logo: assets/img/ivo-logo.png
+  logo: assets/img/ivo/logo.svg
   desc: Plataforma para gestión de servicios
   link: ivo

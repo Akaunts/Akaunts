@@ -65,10 +65,8 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-
-        thisForm.querySelector('.sent-message').classList.add('d-block');
-        thisForm.reset(); 
-
+      thisForm.querySelector('.sent-message').classList.add('d-block');
+      thisForm.reset(); 
     })
     .catch((error) => {
       displayError(thisForm, error);
