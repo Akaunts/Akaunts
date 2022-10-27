@@ -4,7 +4,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 a {
@@ -25,7 +25,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 15px;
   color: #004289;
   font-weight: 500;
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-info .btn-get-started, #hero .hero-info .btn-services {
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -741,7 +741,7 @@ section {
 }
 
 #why-us .counters span {
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -751,7 +751,7 @@ section {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -1158,7 +1158,7 @@ section {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1168,7 +1168,7 @@ section {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   color: #888;
 }
 
@@ -1330,7 +1330,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1341,7 +1341,7 @@ section {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "TT Rounds Neue", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   color: #ecf5ff;
 }
 

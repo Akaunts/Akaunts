@@ -1,24 +1,24 @@
 - name: Arkbox
   logo: assets/img/ark_box-logo.svg
   desc: Señalización Digital & Messaging
-  link: arkbox
+  link: arkbox.html
 - name: Dinámica y Desarrollo
   logo: assets/img/dyd/logo.svg
   desc: Sistema de Turnos & App para Citas
-  link: dyd
+  link: dyd.html
 - name: MovilVentas
   logo: assets/img/mv/mv-logo.svg
   desc: Aplicaciones comerciales y logística
-  link: movil-ventas
+  link: movil-ventas.html
 - name: Hall MG
   logo: assets/img/hmg/logo.svg
   desc: Plataforma de Gestión y Desarrollo del Capital Humano
-  link: hall-mg
+  link: hall-mg.html
 - name: RH4000
   logo: assets/img/rh4000/logo.svg
   desc: Nómina y procesos RRHH
-  link: rh4000
+  link: rh4000.html
 - name: IVO
   logo: assets/img/ivo/logo.svg
   desc: Plataforma para gestión de servicios
-  link: ivo
+  link: ivo.html
